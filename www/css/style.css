@@ -1,0 +1,54 @@
+* { vertical-align: bottom; margin:0px; padding:0px; }
+@import url(//fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic,700,700italic);
+body{
+font-family:Avenir , "Open Sans" , "Helvetica Neue" , Helvetica , Arial , Verdana , Roboto , "游ゴシック" , "Yu Gothic" , "游ゴシック体" , "YuGothic" , "ヒラギノ角ゴ Pro W3" , "Hiragino Kaku Gothic Pro" , "Meiryo UI" , "メイリオ" , Meiryo , "ＭＳ Ｐゴシック" , "MS PGothic" , sans-serif;
+}
+
+
+
+button#add { 
+  width:196px; /*ずらすと文字ズレが起こるよ！*/
+  height:160px; /*でもボタン押す範囲が狭いからなんとかして広くさせたいね*/
+  margin:24px 0px 0px 88px;
+  display: block;
+  text-decoration: none;
+  font-size: 40px;
+  line-height: 37px;
+  text-align: center;
+  color: #fff;
+  text-shadow: #f9df98 1px 1px 0px, #f9df98 -1px 1px 0px,
+             #f9df98 1px -1px 0px, #f9df98 -1px -1px 0px;
+  border:solid 1px #ffebb1;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -o-transition: 0.3s;
+  -ms-transition: 0.3s;
+  transition: 0.3s;
+  background: #ffebb1;
+        }
+.del { width: 28px; height: 28px;}
+.wrap { text-align: center; margin:auto; list-style: none outside none; border-bottom: 2px solid lightblue;  white-space: nowrap;  overflow: hidden; }
+
+button#b_add { 
+  width:196px; 
+  height:160px; 
+  margin:24px 0px 0px 88px;
+  display: block;
+  text-decoration: none;
+  font-size: 40px;
+  line-height: 37px;
+  text-align: center;
+  color: #fff;
+text-shadow: #a3d8f7 1px 1px 0px, #a3d8f7 -1px 1px 0px,
+             #a3d8f7 1px -1px 0px, #a3d8f7 -1px -1px 0px;
+  border:solid 1px #e1f3fe;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -o-transition: 0.3s;
+  -ms-transition: 0.3s;
+  transition: 0.3s;
+  background: #e1f3fe;
+        }
+        
+
+ 
