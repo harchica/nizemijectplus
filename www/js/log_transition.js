@@ -47,12 +47,12 @@ $(function() {
  
         } else if (e.type == "touchend") { //画面から指を離した
  
-            if (diffX > 150) { //右に100px以上移動したか
+            if (diffX > 250) { //右に100px以上移動したか
  
                 if ( "map.html" ) { //移動先のページがあれば、移動
                     location.href = "map.html";
                 }
-            } else if (diffX < -150) { //左に100px以上移動したか
+            } else if (diffX < -250) { //左に100px以上移動したか
  
                 if ( "index.html") { //移動先のページがあれば、移動
                     location.href = "index.html";
