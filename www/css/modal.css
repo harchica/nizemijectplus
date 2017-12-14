@@ -32,11 +32,12 @@ border-radius: 3px;
 }
 
 #g_form button{
-height: 32px;
+height: 40px;
+width:120px ;
 border:solid 1px #fff;
 margin:8px 8px 24px;
 padding:0px 16px;
-font-size:8px;
+font-size:16px;
 text-transform:uppercase;
 font-weight:bold;
 color:#fff;
@@ -65,11 +66,12 @@ border-radius: 3px;
 }
 
 #b_form button{
-height: 32px;
+height: 40px;
+width: 120px;
 border:solid 1px #fff;
 margin:8px 8px 24px;
 padding:0px 16px;
-font-size:8px;
+font-size:16px;
 text-transform:uppercase;
 font-weight:bold;
 color:#fff;

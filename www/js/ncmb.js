@@ -21,7 +21,7 @@ function sendResult() {
          .set("bad",0)
          .save()
          .then(function(){
-          window.alert("送信完了！");
+        //  window.alert("送信完了！");
               window.location.href = "index.html";
          })
          .catch(function(err){

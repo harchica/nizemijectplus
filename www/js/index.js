@@ -21,11 +21,12 @@ $(function() {
         touch_time += 10;
         if (touch_time == 1000) {
           // ロングタップ(タップから約1秒)時の処理
-          alert('送信ボタン出現!');
+          //alert('送信ボタン出現!');
     var div_element = document.createElement("div");
     div_element.innerHTML = '<br>Good:<span id="g_cnt">' +(cnt-1) +'</span><br>Nowemo: <br><input name="textBox1" id="g_emo" type="text" value="" placeholder="Now Emo" /><br><button  id="sendButton" onclick="sendResult();">Send</button><br>';
     var parent_object = document.getElementById("g_form");
-    parent_object.appendChild(div_element);}      
+    parent_object.appendChild(div_element);
+        $('.bad_div').css('display','none');}      
       }, 100);
       e.preventDefault(); // このイベントに紐つく動作をキャンセル
     },
@@ -99,13 +100,14 @@ $(function() {
       touched = true;
       document.interval = setInterval(function(){
         touch_time += 10;
-        if (touch_time == 15000) {
+        if (touch_time == 1500) {
           // ロングタップ(タップから約1秒)時の処理
           alert('送信ボタン出現！');
     var bdiv_element = document.createElement("div");
     bdiv_element.innerHTML = '<br>Bad:<span id="bb_cnt">' +(b_cnt-1) +'</span><br>Nowemo: <br><input name="textBox1" id="b_emo" type="text" value="" placeholder="Now Emo" /><br><button id="b_sendbutton" onclick="sendbResult();">Submit</button><br>';
     var parent_object = document.getElementById("b_form");
     parent_object.appendChild(bdiv_element);
+    $('.good_div').css('display','none');
     }
     
 
@@ -114,7 +116,7 @@ $(function() {
     },
     'touchend mouseup ': function(e) {
       if (touched) {
-          if (touch_time < 3000 ) {
+          if (touch_time < 2500 ) {
               touch_time -= 500;
           if(b_cnt <160 ){
          $('.bad_div').css('background-color','rgba('+(226-b_cnt)+','+(244-b_cnt)+','+(255-b_cnt)+',1)');

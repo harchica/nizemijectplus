@@ -50,5 +50,7 @@ text-shadow: #a3d8f7 1px 1px 0px, #a3d8f7 -1px 1px 0px,
   background: #e1f3fe;
         }
         
-
+#b_contents{
+    position: relative;
+}
  
